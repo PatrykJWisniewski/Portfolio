@@ -21,7 +21,7 @@
 .info {
   color: #777;
   background-color: white;
-  padding: 50px 80px;
+  padding: 50px 10%;
   text-align: justify;
 }
 
@@ -29,7 +29,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 80px;
+  padding: 80px 10%;
   grid-gap: 80px;
 }
 
@@ -64,8 +64,7 @@
   font: 400 15px/1.8 "Lato", sans-serif;
   padding:0px;
   width: 400px;
-  height: 520px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .mat-card-content{
@@ -74,12 +73,14 @@
 }
 
 .button{
-  margin-left: 20px !important;
-  margin-right: 20px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .mat-card-actions{
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  grid-gap: 20px;
 }
