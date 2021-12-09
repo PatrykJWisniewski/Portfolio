@@ -6,9 +6,5 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent {
-  images = [
-    {path: '/assets/rock.JPG'},
-    {path: '/assets/skis.jpg'},
-    {path: '/assets/bird.jpg'},
-  ];
+  
 }
