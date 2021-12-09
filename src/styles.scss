@@ -56,3 +56,14 @@ p {
 {
   background-color: #006680;
 }
+
+.main{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  z-index: 1111111;
+  pointer-events: none;
+}
