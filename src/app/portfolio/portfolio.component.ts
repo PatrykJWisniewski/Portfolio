@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent {
   images = [
-    {path: 'rock.jpg'},
+    {path: '/assets/rock.JPG'},
     {path: '/assets/skis.jpg'},
     {path: '/assets/bird.jpg'},
   ];
