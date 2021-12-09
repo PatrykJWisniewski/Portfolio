@@ -6,9 +6,53 @@ html, body{
   color: #777;
 }
 
-h3 {
+h1 {
+  letter-spacing: 10px;
+  font-size: 64px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px;
+  text-shadow: 3px 3px 5px #000;
+}
+
+h2 {
   letter-spacing: 5px;
+  font-size: 48px;
+  font-weight: 500;
   text-transform: uppercase;
   color: #111;
   text-align: center;
+  margin-top: 0;
+}
+
+h3 {
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #666;
+  text-align: center;
+}
+
+.mat-default {
+  background-color: #00CCFF;
+}
+
+.mat-default:hover {
+  background-color: #0099BF;
+}
+
+.mat-default:active
+{
+  background-color: #006680;
 }
