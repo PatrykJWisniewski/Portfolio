@@ -10,9 +10,9 @@ export class AppComponent implements OnInit {
   title = 'Portfolio';
 
   images = [
-    {path: '/assets/rock.JPG'},
-    {path: '/assets/skis.jpg'},
-    {path: '/assets/bird.jpg'},
+    {path: './assets/rock.JPG'},
+    {path: './assets/skis.jpg'},
+    {path: './assets/bird.jpg'},
   ];
 
   constructor(private route:Router){} 
